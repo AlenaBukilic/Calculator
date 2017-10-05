@@ -1,0 +1,110 @@
+body, div, a {
+    padding:0;
+    margin:0;
+    font-family: 'Lakki Reddy', cursive;
+}
+
+body {
+	background: wheat;
+}
+
+#calculator {
+	background-color: #2b2b2b;
+	width: 310px;
+	height: 480px;
+	border: 3px black solid;
+	margin: 10px auto;
+	padding: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 50px;
+}
+
+#calculator a {
+	display: block;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(rgb(216, 20, 20)));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EDEDED', endColorstr='#DCDCDC');
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 50px;
+    color: whitesmoke;
+}
+
+#numbers, #operators {
+	margin: auto;	
+}
+
+#operators {
+	margin-top: 10px;
+}
+
+#operators a {
+	width: 46px;
+    height: 46px;
+    font-size: 43px;
+    padding: 5px;
+    margin: 8px 10px;
+}
+
+#numbers a {
+	width: 50px;
+    height: 48px;
+    font-size: 38px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#total {
+    height: 85px;
+    width: 302px;
+    margin: auto;
+    background-color: #e4bebe;
+    color: white;
+    text-align: right;
+    font-size: 57px;
+    padding: 3px 7px;
+    border-radius: inherit;
+}
+
+#history {
+	height: 17px;
+    width: 80%;
+    background-color: #e4bebe;
+    color: white;
+    text-align: right;
+    font-size: 22px;
+    padding: 3px;
+    margin-top: -25px;
+    margin-left: 30px;
+}
+
+#side {
+	width: 49px;
+	float: right;
+}
+
+#side a {
+	width: 40px;
+    height: 40px;
+    float: right;
+    font-size: 32px;
+    padding: 10px;
+    margin: 5px;
+}
+
+a#equals {
+	padding-top: 50px;
+    height: 85px;
+}
+
+a#decimal {
+	padding-top: 50px;
+    height: 85px;
+}
